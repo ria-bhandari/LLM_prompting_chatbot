@@ -2,7 +2,29 @@
 
 This project uses a conversational AI Model (gpt-3.5 Turbo) to simulate different personas and understand their favorite colors. It also provides a description to explain their choices. 
 
-The AI has been configured for the above purpose in the `system_message` and `prompt` variables in `llm_prompting.ipynb`.
+
+## Installation
+
+Prerequisites
+
+- Python 3.6 or higher
+- OpenAI GPT-3 API key (edit cell 2 of `llm_prompting.ipynb`)
+
+Clone this repository:
+```bash
+git clone https://github.com/ria-bhandari/LLM_Prompting
+```
+
+Install the required modules using pip
+```
+pip install -r requirements.txt
+```
+
+Set up your API key on your OpenAI account online and specify it in cell 2 of `llm_prompting.ipynb`.
+
+## Configuring the AI
+
+The AI has been configured for predicting color preferences from occupation in the `system_message` and `prompt` variables in `llm_prompting.ipynb`.
 
 #### System Message
 ```python
@@ -15,43 +37,7 @@ system_message = "You are a helpful assistant that provides information about an
 prompt = f"You are a {persona['age']}-year-old and you are a {persona['occupation']}. List your favorite color among Pink, Yellow, Grey, Purple in the first word of your response and describe it two sentences."
 ```
 
-## Table of Contents 
-
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-
-
-## About
-
-The Color Preference Chatbot in this project is designed to collect data on ceratin people's favorite colors based on their age and occupation.
-
-## Getting Started
-
-To get started with this project on your machine, follow the instructions
-
-### Prerequisites 
-
-- Python 3.6 or higher
-- OpenAI GPT-3 API key (edit cell 2 of `llm_prompting.ipynb`)
-
-### Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/ria-bhandari/LLM_Prompting
-```
-
-2. Install the required modules using pip
-```
-pip install -r requirements.txt
-```
-
-3. Set up your API key on your OpenAI account online and replace it
-
-
-### Plot of Color Preference vs. Occupation
+## Plot of Color Preference vs. Occupation
 
 <img width="840" alt="Screenshot 2023-10-01 at 2 22 37 PM" src="https://github.com/ria-bhandari/LLM_prompting_chatbot/assets/121469289/4419bf7d-000e-4f8e-a465-5bba72d95864">
 
