@@ -10,17 +10,17 @@ Prerequisites
 - Python 3.6 or higher
 - OpenAI GPT-3 API key (edit cell 2 of `llm_prompting.ipynb`)
 
-Clone this repository:
+1. Clone this repository:
 ```bash
 git clone https://github.com/ria-bhandari/LLM_Prompting
 ```
 
-Install the required modules using pip
+2. Install the required modules using pip
 ```
 pip install -r requirements.txt
 ```
 
-Set up your API key on your OpenAI account online and specify it in cell 2 of `llm_prompting.ipynb`.
+3. Set up your API key on your OpenAI account online and specify it in cell 2 of `llm_prompting.ipynb`.
 
 ## Configuring the AI
 
