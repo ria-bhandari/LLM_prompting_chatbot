@@ -21,7 +21,7 @@ To get started with this project on your machine, follow the instructions
 ### Prerequisites 
 
 - Python 3.6 or higher
-- OpenAI GPT-3 API key
+- OpenAI GPT-3 API key (edit cell 2 of `llm_prompting.ipynb`)
 
 ### Installation
 
@@ -46,6 +46,16 @@ In the example, the AI has simulated the personas:
 1. A 20 year old construction worker
 2. A 60 year old golfer
 3. A 7 year old primary school student
-The bar chart provides an overview of what color the chat model chose the most for each persona. 
+
+The bar chart provides an overview of what color the chat model chose the most for each persona. The persona can be edited for a different age or occupation in the below code snippet, which is the third cell of `llm_prompting.ipynb`.
+
+```python
+# Declare persona space
+persona_space = [
+    {"age": 20, "occupation": "construction worker"},
+    {"age": 60, "occupation": "golfer"},
+    {"age": 7, "occupation": "primary school student"},
+]
+```
 
 
