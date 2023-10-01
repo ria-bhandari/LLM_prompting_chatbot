@@ -2,6 +2,19 @@
 
 This project uses a conversational AI Model (gpt-3.5 Turbo) to simulate different personas and understand their favorite colors. It also provides a description to explain their choices. 
 
+The AI has been configured for the above purpose in the `system_message` and `prompt` variables in `llm_prompting.ipynb`.
+
+#### System Message
+```python
+system_message = "You are a helpful assistant that provides information about any topic that the user asks you."
+```
+
+#### Prompt
+
+```py
+prompt = f"You are a {persona['age']}-year-old and you are a {persona['occupation']}. List your favorite color among Pink, Yellow, Grey, Purple in the first word of your response and describe it two sentences."
+```
+
 ## Table of Contents 
 
 - [About](#about)
