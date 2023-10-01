@@ -16,7 +16,7 @@ The Color Preference Chatbot in this project is designed to collect data on cera
 
 ## Getting Started
 
-To get started with this project on your machine, follow the following instructions
+To get started with this project on your machine, follow the instructions
 
 ### Prerequisites 
 
