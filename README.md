@@ -39,6 +39,10 @@ git clone https://github.com/ria-bhandari/LLM_Prompting
 
 <img width="840" alt="Screenshot 2023-10-01 at 2 22 37 PM" src="https://github.com/ria-bhandari/LLM_prompting_chatbot/assets/121469289/4419bf7d-000e-4f8e-a465-5bba72d95864">
 
-
+In the example, the AI has simulated the personas: 
+1. A 20 year old construction worker
+2. A 60 year old golfer
+3. A 7 year old primary school student
+The bar chart provides an overview of what color the chat model chose the most for each persona. 
 
 
