@@ -30,7 +30,10 @@ To get started with this project on your machine, follow the instructions
 git clone https://github.com/ria-bhandari/LLM_Prompting
 ```
 
-2. Install the relevant prerequisites using pip
+2. Install the required modules using pip
+```
+pip install -r requirements.txt
+```
 
 3. Set up your API key on your OpenAI account online and replace it
 
